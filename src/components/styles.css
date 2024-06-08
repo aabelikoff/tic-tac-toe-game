@@ -1,0 +1,75 @@
+.TicTacToe {
+  max-width: 900px;
+  margin: 24px auto;
+  color: brown;
+}
+.TicTacToe table {
+  border: 1px solid black;
+  margin: 8px auto;
+}
+.TicTacToe td {
+  border: 1px solid brown;
+  border-width: 1px;
+  padding: 4px 8px;
+  width: 64px;
+  height: 64px;
+  font-size: 36px;
+}
+.TicTacToe .matched {
+  background-color: brown;
+  color: white;
+}
+.gameControls {
+  padding: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border-bottom: 3px solid brown;
+  border-top: 3px solid brown;
+  margin-bottom: 32px;
+}
+.gameControls .logo {
+  font-weight: 700;
+}
+.gameControls nav {
+  margin: 8px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.gameControls p {
+  margin: 0;
+}
+
+.gameControls button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 4px;
+  background-color: white;
+  border: 3px solid brown;
+  /* outline: 3px solid brown; */
+  margin-left: 16px;
+  color: brown;
+}
+.gameControls button:hover {
+  background-color: brown;
+  color: white;
+}
+
+.gameControls button:focus {
+  outline: 3px solid brown;
+}
+
+.gameControls button:active {
+  border-color: darkbrown;
+}
+.settings {
+  text-align: left;
+}
+.settings label {
+  margin-left: 8px;
+}
